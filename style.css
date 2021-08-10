@@ -535,6 +535,10 @@ p {
 	color: #ffdd99;
 }
 
+.review__icon{
+	border-radius: 100px;
+}
+
 /* Contact Us / Get in touch*/
 
 .contact-us {
