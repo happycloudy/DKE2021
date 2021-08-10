@@ -100,7 +100,8 @@ p {
 }
 
 
-/* Header
+/* 
+
 =================*/
 
 .header {
@@ -113,14 +114,18 @@ p {
     z-index: 1000;
 }
 
+.header__logo {
+	margin-right: 100px;
+}
+
 .header__logo img {
 	width: 100px
 }
 
 .header__inner {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
 .header__nav {
