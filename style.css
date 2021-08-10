@@ -467,7 +467,12 @@ p {
 }
 
 .portfolio__image {
-	width: 100%;
+	width: 15rem;
+	transition: .2s;
+}
+
+.portfolio__image:hover{
+	transform: scale(1.05,1.05);
 }
 
 .portfolio__title {
