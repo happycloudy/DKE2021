@@ -113,6 +113,10 @@ p {
     z-index: 1000;
 }
 
+.header__logo img {
+	width: 100px
+}
+
 .header__inner {
     display: flex;
     justify-content: space-between;
@@ -128,7 +132,7 @@ p {
 .nav__link {
     margin-left: 30px;
 
-    color: #fff;
+    color: #000;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
@@ -142,7 +146,7 @@ p {
 
 .active {
 	padding: 10px 18px;
-	background-color: #643a79;
+	background-color: #ccc7c7;
 	border-radius: 5px;
 }
 
@@ -199,7 +203,7 @@ p {
     justify-content: center;
     height: 100vh;
     min-height: 600px;
-    background-color: #87509c;
+    background-color: #fff;
 }
 
 .intro__inner {
@@ -216,7 +220,7 @@ p {
     font-family: 'Titillium Web', sans-serif;
     font-size: 42px;
     line-height: 1.1;
-    color: #fff;
+    color: #000;
     font-weight: 700;
 }
 
