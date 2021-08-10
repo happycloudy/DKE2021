@@ -19,11 +19,11 @@
             </div>
 
             <nav class="nav">
-                <a class="nav__link active" href="#">Home</a>
-                <a class="nav__link" href="#">About</a>
-                <a class="nav__link" href="#">Work</a>
-                <a class="nav__link" href="#">Blog</a>
-                <a class="nav__link" href="#">Contact</a>
+                <a class="nav__link active" href="#">Главная</a>
+                <a class="nav__link" href="#">Категории</a>
+                <a class="nav__link" href="#">Отзывы</a>
+                <a class="nav__link" href="#">Контакты</a>
+		<a class="nav__link" href="#" id="city">О, а мы знаем, что вы из: </a>
             </nav>
 
             <button class="burger" type="button">
@@ -309,4 +309,11 @@
 
 </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+	let apiKey = '1be9a6884abd4c3ea143b59ca317c6b2';
+	$.getJSON('https://ipgeolocation.abstractapi.com/v1/?api_key=' + apiKey, function(data) {
+		document.querySelector('#city').innerHTML = 'О, а мы знаем, что вы из: ' + data.city;
+	});
+</script>
 </html>
