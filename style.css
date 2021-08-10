@@ -361,7 +361,10 @@ p {
 }
 
 /* Skills */
-
+.skill__img {
+	height: 160px;
+	width: 160px;
+}
 .our-skills {
 	display: flex;
     flex-direction: column;
@@ -698,6 +701,7 @@ p {
     	height: auto;
     	padding-bottom: 75px;
     }
+
 
 
 
