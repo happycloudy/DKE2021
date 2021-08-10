@@ -427,13 +427,13 @@ p {
 
 .menu__item {
 	margin-right: 10px;
-
+	padding: 5px;
 	font-size: 17px;
 	font-weight: 400;
 	text-transform: uppercase;
 	text-decoration: none;
 
-	width: 25%;
+	
 	border-radius: 5px;
 
 	color: #393939;
